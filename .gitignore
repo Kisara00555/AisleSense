@@ -1,0 +1,32 @@
+# Generated environments, builds and caches
+.venv*/
+node_modules/
+dist/
+.backup/
+.tmp/
+.npm-cache/
+.pip-cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+# Local activity and inputs are never project source
+logs/
+data/*
+!data/sources/
+data/sources/*
+!data/sources/normal-shopping.mp4
+!data/sources/sources.json
+models/*.task
+models/*.part
+evidence/
+*.sqlite*
+*.db
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.zip
+.DS_Store
+Thumbs.db
